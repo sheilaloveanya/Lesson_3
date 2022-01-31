@@ -1,0 +1,48 @@
+@import url(null.css);
+span {
+	color: forestgreen;
+}
+
+p span {
+	color: turquoise;
+}
+
+.text {
+	color: rosybrown;
+}
+
+div.text {
+	color: indigo;
+}
+
+#block { 
+	color: rgb(173, 226, 173);
+}
+
+.text.paragraph {
+	color: gray;
+}
+
+[class*="__text"] {
+	color: plum;
+}
+
+.section > p {
+	color: red;
+} 
+
+.next__text + p {
+	color: bisque;
+}
+
+.next__text ~ p {
+	color: chartreuse ;
+}
+
+
+
+
+
+
+
+ 
